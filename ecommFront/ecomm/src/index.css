@@ -6,14 +6,16 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+.main {
+    padding: 1rem;
+}
 .navbar {
+    margin: 0;
     display: flex;
-    position: fixed;
+    position: relative;
     background-color: #404040;
     width: 100%;
     justify-content: space-between;
-    align-items: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     transition: background-color 0.4s;
 }
@@ -27,4 +29,30 @@ body {
     margin: 0 10px;
     color: white;
     font-family: cursive;
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product {
+    border: 1px #404040 solid;
+    margin: 1rem;
+}
+
+.productimg {
+    width: 100%;
+}
+.product-info {
+    padding: 1rem;
+}
+.addCartButton {
+    padding: 12px 12px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 6px 7px 4px -4px rgba(0, 0, 0, 0.2);
 }
