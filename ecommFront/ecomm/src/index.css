@@ -13,6 +13,10 @@ main {
     flex: 1;
 }
 
+.btn-primary {
+    background-color: #f0c040;
+    color: black;
+}
 .products {
     display: flex;
     flex-wrap: wrap;
@@ -38,4 +42,8 @@ main {
     position: relative;
     overflow: hidden;
     box-shadow: 6px 7px 4px -4px rgba(0, 0, 0, 0.2);
+}
+
+.rating span {
+    color: #ffc000;
 }
